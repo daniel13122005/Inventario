@@ -287,7 +287,7 @@ void precio_del_producto(char *codigo_producto,char *nombre_producto,short int *
     categoria_del_producto();
     if (strcmp(verificar,"salir") == 0)
     {
-        precio_del_producto(codigo_producto,nombre_producto,verificar,cantidad);
+        precio_del_producto(codigo_producto,nombre_producto,cantidad,verificar);
     }
     return;
     
