@@ -370,7 +370,7 @@ void cantidad_de_ingreso_de_producto(char *codigo_producto,char *nombre_producto
         
     }
     cantidad = atoi(numero);
-    precio_del_producto(codigo_producto,nombre_producto,verificar,cantidad);
+    precio_del_producto(codigo_producto,nombre_producto,cantidad,verificar);
     if (strcmp(verificar,"salir") == 0)
     {
         cantidad_de_ingreso_de_producto(codigo_producto,nombre_producto,verificar);
